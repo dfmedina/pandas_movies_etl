@@ -1,1 +1,5 @@
+#ignore all Idea files
 *.idea
+
+#ignore dataset
+dataset/movie_metadata.csv
