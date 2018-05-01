@@ -15,3 +15,5 @@ class TestPandasEtl(unittest.TestCase):
     def test_count_movies(self):
         movies_df = pd.read_csv(self.data_set)
         print(movies_df.groupby('movie_title').nunique())
+        print(movies_df.movie_title.value_counts())
+        print(len(movies_df.movie_title))
